@@ -1,0 +1,35 @@
+name: gic_call_center
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.1.2 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  retrofit: any    
+  logger: any  #for logging purpose
+  json_annotation: ^4.8.1
+  shared_preferences: ^2.2.1
+  dio: ^5.3.3
+  http:
+  intl: ^0.17.0
+  curved_labeled_navigation_bar: ^2.0.2
+  flutter_phone_direct_caller: ^2.1.1
+  google_fonts: ^4.0.4
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  retrofit_generator: any
+  build_runner: any
+  json_serializable: ^6.6.2
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
